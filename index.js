@@ -12,7 +12,7 @@ function destructivelyRemoveFirstKitten() {
   kittens.splice(0,1);
 }
 function appendKitten(name) {
-  var test = kittens.concat(name);
+  var test = kittens.push(...kittens,name);
   return test
 }
 function 

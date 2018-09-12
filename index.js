@@ -1,6 +1,6 @@
 // Add your functions and code here
 function destructivelyAppendKitten(name) {
-  kittens.splice(3,0,name);
+  kittens.push(name);
 }
 function destructivelyPrependKitten(name) {
   kittens.splice(0,0,name);

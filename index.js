@@ -19,10 +19,6 @@ function prependKitten(name) {
   var newKittens = kittens.splice(0,0,name);
   return newKittens;
 }
-
-1) Arrays prependKitten(name) prepends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged:
-
-      Error: Expected [] to equal [ 'Arnold', 'Milo', 'Otis', 'Garfield' ]
 function removeLastKitten() {
   var test = kittens.slice(0,2);
   return test;

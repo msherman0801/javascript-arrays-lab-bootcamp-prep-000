@@ -20,6 +20,6 @@ function prependKitten(name) {
   return test.splice(0,1,name);
 }
 function removeLastKitten() {
-  var test = kittens.pop();
+  var test = kittens.slice(2);
   return test;
 }

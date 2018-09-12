@@ -17,5 +17,5 @@ function appendKitten(name) {
 }
 function prependKitten(name) {
   var test = kittens
-  return test.splice(1,0,name);
+  return test.splice(0,1,name);
 }

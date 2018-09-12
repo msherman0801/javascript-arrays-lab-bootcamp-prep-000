@@ -19,3 +19,7 @@ function prependKitten(name) {
   var test = kittens
   return test.splice(0,1,name);
 }
+function removeLastKitten() {
+  var test = kittens.pop();
+  return test;
+}
